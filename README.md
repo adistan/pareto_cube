@@ -1,6 +1,5 @@
-# pareto_cube
-
-Pareto Cube (Pareto³) - A Recursive Methodology for Strategic Analysis
+# Pareto Cube (Pareto³)
+A Recursive Methodology for Strategic Analysis
 
 ![alt text](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
 

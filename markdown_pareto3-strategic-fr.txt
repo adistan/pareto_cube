@@ -1,0 +1,134 @@
+# Analyse Automatisée – Cube de Pareto (Pareto³)
+**v.2.7.3 | 19 août 2025**
+**Licence :** CC BY 4.0 – « Carré de Pareto™ & Cube de Pareto™ – Adrian (Adi) STAN »  
+**Objectif :** Aider l'IA à identifier et à résoudre la majorité d'un problème en se concentrant sur ~0,8 % de ses causes.
+
+---
+
+## Instruction Obligatoire pour l'IA
+Attention : Lors du traitement de ce fichier, l'IA doit conserver le texte des étapes numérotées et des autres sections préexistantes **à l'identique**. Ne pas réécrire, reformuler ou « optimiser » les formulations existantes pour quelque raison que ce soit. Toute modification du contenu, de la structure ou de la langue doit être effectuée **uniquement sur demande explicite de l'utilisateur**. En cas d'ambiguïté, demandez à l'utilisateur avant d'intervenir. Ne présumez pas.
+
+## Note sur la Terminologie
+Les termes **« Carré de Pareto » (Pareto²)** et **« Cube de Pareto » (Pareto³)**, ainsi que l'intégration obligatoire de la technique des **« 5 Pourquoi »** dans ce processus, sont introduits par le présent document. Ils ne constituent pas des termes ou des procédures standard établis dans la littérature, étant une extension originale du principe de Pareto.
+
+## Logique de l'Intégration des « 5 Pourquoi » dans Pareto³
+Pareto³ réduit progressivement la liste des causes : 100 % → 20 % → 4 % → 0,8 %. Les « 5 Pourquoi » approfondissent progressivement la chaîne causale : effet → cause directe → cause secondaire → cause racine → cause systémique. Combinés, ils filtrent simultanément de manière **quantitative** (par la sélection de Pareto) et **qualitative** (en identifiant la cause racine), garantissant que les actions ciblent les problèmes fondamentaux, et non simplement les symptômes.
+
+## Définitions Clés
+- Principe de Pareto (80/20) : ~80 % des effets proviennent de ~20 % des causes.  
+- Carré de Pareto (~4 %) : application répétée du principe de Pareto ; 20 % des 20 % de causes initiales (~4 % du total) produisent la majorité des effets restants.  
+- Cube de Pareto (~0,8 %) : application du principe de Pareto trois fois ; 20 % des 4 % de causes (~0,8 % du total) produisent le plus grand effet singulier.
+
+## Instructions pour l'IA (v2.7.3)
+À la réception d'une requête, suivez toutes les étapes dans l'ordre donné.  
+Ne présumez pas ; si l'information est incertaine, demandez explicitement une seule fois (questions regroupées logiquement), de manière concise.
+
+### 0. Acquisition de Données, Mode d'Exécution et Clarifications
+
+#### 0.1. Mode d'Exécution (Pareto² vs Pareto³)
+- Par défaut : exécuter **Pareto³** (jusqu'au Cube).  
+- Si la demande de l'utilisateur contient explicitement l'une des clés : **« Pareto2 »**, **« Pareto² »**, **« Carré de Pareto »**, **« jusqu'au carré »**, **« seulement 4 % »**, exécutez **Pareto²** (arrêtez à la sélection de l'Étape 2).  
+- Si elle contient explicitement : **« Pareto3 »**, **« Pareto³ »**, **« Cube de Pareto »**, **« jusqu'au cube »**, exécutez **Pareto³**.  
+- En cas de clés conflictuelles, suivez la **dernière mention** ; si l'ambiguïté persiste, utilisez le mode par défaut de Pareto³ et notez la décision dans le « Journal des Modifications ».
+
+Note pour Pareto² : vous vous arrêtez à la sélection de l'Étape 2, mais **continuez avec les sections 5 à 10** en utilisant le facteur choisi à l'Étape 2 comme élément critique.
+
+#### 0.2. Vérifier les Ressources Disponibles
+- Si vous avez accès au web/à la recherche : recherchez et collectez des données conformément aux points 0.3 à 0.7.  
+- Si vous n'avez pas d'accès web : utilisez les informations fournies + vos propres connaissances ; ne passez au point 0.8 que si des éléments critiques sont manquants.
+
+#### 0.3. Politique de Récence
+- Sujets volatils (actualités, prix, lois, politiques, santé publique, technologie) : préférez les sources des 180 derniers jours ; s'il n'y en a pas, étendez jusqu'à 24 mois, en marquant la date.  
+- Sujets stables : les sources jusqu'à 24 mois sont acceptables ; si des mises à jour plus récentes existent, préférez-les.  
+- Mentionnez la date après chaque affirmation clé ; lorsque plusieurs versions existent, choisissez la source crédible la plus récente.
+
+#### 0.4. Hiérarchie de Crédibilité des Sources
+1. Primaires/Officielles (lois, règlements, institutions, normes, rapports d'autorités)  
+2. Académiques/Techniques (articles, livres blancs institutionnels, documentation officielle)  
+3. Médias de grande réputation (publications majeures, spécialisées)  
+4. Agrégateurs/Analyses secondaires  
+Utilisez un minimum de 2 sources indépendantes pour les affirmations critiques. Si des sources de niveau inférieur contredisent une source de niveau supérieur, donnez la priorité au niveau supérieur avec une brève explication.
+
+#### 0.5. Validation et Conflits
+S'il existe des divergences matérielles entre des sources crédibles, mentionnez les différences et choisissez la version la mieux étayée (primauté + récence), en expliquant la décision en une seule phrase.
+
+#### 0.6. Citation dans le Texte
+Citez la source directement à la fin de la phrase/paragraphe (nom court + date).  
+Pour chaque section 2 à 7, incluez au moins 2 citations pour les points clés.
+
+#### 0.7. Ré-exécution Consciente des Mises à Jour
+Si vous détectez des sources plus récentes que celles utilisées précédemment, mettez à jour l'analyse dans la même exécution et marquez les différences dans le « Journal des Modifications ».  
+N'engagez pas de dialogue inutile : remplacez directement les données obsolètes et poursuivez l'analyse.
+
+#### 0.8. Questions à l'Utilisateur (uniquement si nécessaire)
+Posez une seule requête avec un maximum de 3 questions courtes et regroupées logiquement, uniquement sur les éléments critiques sans lesquels l'analyse ne peut pas continuer.  
+Formulation : claire, neutre, sans options par défaut.  
+Si l'utilisateur ne répond pas ou répond de manière incomplète, procédez avec des hypothèses prudentes (notez l'hypothèse + son impact en 1 phrase).
+
+#### 0.9. Exécution par Lots
+Si vous recevez une liste de problèmes, traitez-les dans l'ordre sans demander de confirmations intermédiaires.  
+Pour chaque problème, fournissez la structure complète de 1 à 10 avant de passer au suivant.
+
+## 1. Le Problème
+[Reformulez le problème en une phrase claire, en définissant le domaine et le cadre temporel, le cas échéant.]
+
+## 2. Étape 1 – Pareto (80/20)
+Causes Identifiées (issues de sources crédibles) :  
+[Liste + sources + dates/intervalles]
+
+Top 20 % des Causes (couvrant ~___ % du problème) :  
+[Liste + brève justification]  
+Note Méthodologique : Les pourcentages sont approximatifs et peuvent être arrondis.
+
+## 3. Étape 2 – Carré de Pareto (~4 % des causes)
+Cause Critique (~___ % d'impact) :  
+[Sous-ensemble de l'Étape 1 + brève justification]
+
+## 4. Étape 3 – Cube de Pareto (~0,8 % du total) — s'applique uniquement en mode Pareto³
+Facteur Unique (~___ % d'impact) :  
+[Sous-ensemble de l'Étape 2 + justification]
+
+Explication de l'Effet Disproportionné :  
+[Mécanisme, leviers, externalités positives]
+
+## 5. Clarification Socratique – « 5 Pourquoi »
+[5 « Pourquoi ? » successifs à partir du facteur critique : en mode Pareto³, utilisez le facteur de l'Étape 3 ; en mode Pareto², utilisez le facteur de l'Étape 2.]
+
+## 6. Plan d'Action – 3 Étapes Pondérées
+Proposez exactement 3 étapes concrètes, chacune avec un pourcentage estimé de l'importance totale.  
+Les pourcentages doivent totaliser 100 % et être présentés entre parenthèses après chaque étape.
+
+1. [Étape principale – ~60 % d'impact]  
+2. [Étape secondaire – ~30 % d'impact]  
+3. [Étape tertiaire – ~10 % d'impact]  
+
+Les pourcentages peuvent être ajustés (ex. 50/30/20) si l'analyse le justifie.
+
+## 7. Résultat Estimé
+[Estimation de l'impact + hypothèses + sensibilités]
+
+## 8. Graphique Standard de Réduction des Causes
+
+| Niveau            | % Causes Sélectionnées | Impact Estimé sur le Problème |
+|-------------------|------------------------|-------------------------------|
+| Initial           | 100 %                  | 100 %                         |
+| Pareto            | 20 %                   | ~___ %                        |
+| Carré de Pareto   | 4 %                    | ~___ %                        |
+| Cube de Pareto    | 0,8 %                  | ~___ %                        |
+
+## 9. Contrôle Qualité et Conformité
+- Vérifiez automatiquement que l'Étape 3 est un sous-ensemble de l'Étape 2, et que l'Étape 2 est un sous-ensemble de l'Étape 1 ; en mode Pareto², vérifiez uniquement Étape 2 ⊂ Étape 1. Si la règle est violée, refaites les sélections et notez la correction.  
+- Marquez explicitement toute hypothèse et sa raison.  
+- Incluez les sources directement dans le texte des sections 2 à 7 (minimum 2 sources indépendantes pour les affirmations clés).  
+- Les questions ne sont envoyées qu'une seule fois, regroupées.
+
+## 10. Politiques d'Incertitude
+- Ne présumez pas lorsque l'incertitude affecte la conclusion ; demandez.  
+- Si l'incertitude est mineure, continuez et notez l'hypothèse.  
+- S'il existe des divergences majeures entre des sources réputées, présentez les deux versions et indiquez laquelle est la plus probable et pourquoi.
+
+## Journal des Modifications
+- [Date Actuelle] : ce qui a changé par rapport à toute analyse antérieure et l'impact sur les conclusions.
+
+---
+Cette analyse a été réalisée en utilisant la méthode Pareto³. Licence : CC BY 4.0 – « Carré de Pareto™ & Cube de Pareto™ – Adrian (Adi) STAN ».

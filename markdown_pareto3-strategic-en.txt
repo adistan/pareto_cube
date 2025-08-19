@@ -1,0 +1,134 @@
+# Automated Analysis – Pareto³ (Pareto – Pareto Square – Pareto Cube)
+**v.2.7.3 | August 19, 2025**
+**License:** CC BY 4.0 – “Pareto Square™ & Pareto Cube™ – Adrian (Adi) STAN”  
+**Purpose:** To help the AI identify and solve the majority of a problem by focusing on ~0.8% of its causes.
+
+---
+
+## Mandatory Instruction for the AI
+Attention: When processing this file, the AI must keep the text of the numbered steps and other pre-existing sections **identical**. Do not rewrite, rephrase, or "optimize" the existing formulations for any reason. Any modification of content, structure, or language should be made **only if explicitly requested by the user**. If there are any ambiguities, ask the user before intervening. Do not assume.
+
+## Note on Terminology
+The terms **“Pareto Square” (Pareto²)** and **“Pareto Cube” (Pareto³)**, as well as the mandatory integration of the **“5 Whys”** technique within this process, are introduced by this document. They do not represent established standard terms or procedures in the literature, being an original extension of the Pareto principle.
+
+## Logic of "5 Whys" Integration in Pareto³
+Pareto³ progressively reduces the list of causes: 100% → 20% → 4% → 0.8%. "5 Whys" progressively drills down the causal chain: effect → direct cause → secondary cause → root cause → systemic cause. Combined, they filter simultaneously **quantitatively** (through Pareto selection) and **qualitatively** (by identifying the root cause), ensuring that actions target the fundamental problems, not just the symptoms.
+
+## Key Definitions
+- Pareto Principle (80/20): ~80% of effects come from ~20% of causes.  
+- Pareto Square (~4%): applying the Pareto principle twice; 20% of the initial 20% of causes (~4% of the total) produce the majority of the remaining effects.  
+- Pareto Cube (~0.8%): applying the Pareto principle three times; 20% of the 4% of causes (~0.8% of the total) produce the single largest effect.
+
+## Instructions for the AI (v2.7.3)
+Upon receiving a query, follow all steps in the given order.  
+Do not assume; if information is uncertain, ask explicitly once (logically grouped questions), concisely.
+
+### 0. Data Acquisition, Run Mode, and Clarifications
+
+#### 0.1. Run Mode (Pareto² vs Pareto³)
+- Default: run **Pareto³** (up to the Cube).  
+- If the user's request explicitly contains one of the keys: **“Pareto2”**, **“Pareto²”**, **“Pareto Square”**, **“up to the square”**, **“only 4%”**, run **Pareto²** (stop at the selection in Step 2).  
+- If it explicitly contains: **“Pareto3”**, **“Pareto³”**, **“Pareto Cube”**, **“up to the cube”**, run **Pareto³**.  
+- If there are conflicting keys, follow the **last mention**; if it remains ambiguous, use the Pareto³ default and note the decision in the "Change Log".
+
+Note for Pareto²: you stop at the selection in Step 2, but **continue with sections 5–10** using the factor chosen in Step 2 as the critical element.
+
+#### 0.2. Check Available Resources
+- If you have web/search access: search and collect data according to 0.3–0.7.  
+- If you do not have web access: use the provided information + your own knowledge; only if critical elements are missing, proceed to 0.8.
+
+#### 0.3. Recency Policy
+- Volatile subjects (news, prices, laws, policies, public health, technology): prefer sources from the last 180 days; if none exist, extend up to 24 months, marking the date.  
+- Stable subjects: sources up to 24 months are acceptable; if newer updates exist, prefer them.  
+- Mention the date after each key statement; when multiple versions exist, choose the most recent credible source.
+
+#### 0.4. Source Credibility Hierarchy
+1. Primary/Official (laws, regulations, institutions, standards, authority reports)  
+2. Academic/Technical (articles, institutional whitepapers, official documentation)  
+3. Reputable Mass-media (major, specialized publications)  
+4. Aggregators/Secondary Analyses  
+Use a minimum of 2 independent sources for critical claims. If lower-tier sources contradict a higher tier, prioritize the higher tier with a brief explanation.
+
+#### 0.5. Validation and Conflicts
+If there are material discrepancies between credible sources, mention the differences and choose the version with the strongest support (primacy + recency), explaining the decision in a single sentence.
+
+#### 0.6. In-text Citation
+Cite the source directly at the end of the sentence/paragraph (short name + date).  
+For each section 2–7, include at least 2 citations for key points.
+
+#### 0.7. Update-Aware Re-run
+If you detect newer sources than those previously used, update the analysis in the same run and mark the differences in the "Change Log".  
+Do not initiate unnecessary dialogue: directly replace outdated data and continue the analysis.
+
+#### 0.8. Questions to the User (only if necessary)
+Ask a single request with a maximum of 3 short, logically grouped questions, only on critical elements without which the analysis cannot proceed.  
+Formulation: clear, neutral, without default options.  
+If the user does not respond or responds incompletely, proceed with conservative assumptions (note the assumption + its impact in 1 sentence).
+
+#### 0.9. Batch Run
+If you receive a list of problems, process them in order without asking for intermediate confirmations.  
+For each problem, deliver the complete 1–10 structure before moving to the next.
+
+## 1. The Problem
+[Rephrase the problem in one clear sentence, defining the domain and time frame, if applicable.]
+
+## 2. Step 1 – Pareto (80/20)
+Identified Causes (from credible sources):  
+[List + sources + dates/intervals]
+
+Top 20% Causes (covering ~___% of the problem):  
+[List + brief justification]  
+Methodological Note: Percentages are approximate and can be rounded.
+
+## 3. Step 2 – Pareto Square (~4% of causes)
+Critical Cause (~___% impact):  
+[Subset from Step 1 + brief justification]
+
+## 4. Step 3 – Pareto Cube (~0.8% of total) — applies only in Pareto³ mode
+Unique Factor (~___% impact):  
+[Subset from Step 2 + justification]
+
+Explanation of Disproportionate Effect:  
+[Mechanism, levers, positive externalities]
+
+## 5. Socratic Clarification – “5 Whys”
+[5 successive “Whys?” starting from the critical factor: in Pareto³ use the factor from Step 3; in Pareto² use the factor from Step 2.]
+
+## 6. Action Plan – 3 Weighted Steps
+Propose exactly 3 concrete steps, each with an estimated percentage of the total importance.  
+The percentages must sum to 100% and be presented in parentheses after each step.
+
+1. [Main step – ~60% impact]  
+2. [Secondary step – ~30% impact]  
+3. [Tertiary step – ~10% impact]  
+
+Percentages can be adjusted (e.g., 50/30/20) if the analysis justifies it.
+
+## 7. Estimated Outcome
+[Impact estimation + assumptions + sensitivities]
+
+## 8. Standard Chart of Cause Reduction
+
+| Level          | % Causes Selected | Estimated Impact on Problem |
+|----------------|-------------------|-----------------------------|
+| Initial        | 100%              | 100%                        |
+| Pareto         | 20%               | ~___%                       |
+| Pareto Square  | 4%                | ~___%                       |
+| Pareto Cube    | 0.8%              | ~___%                       |
+
+## 9. Quality Control and Compliance
+- Automatically check that Step 3 is a subset of Step 2, and Step 2 is a subset of Step 1; in Pareto² mode, only check Step 2 ⊂ Step 1. If the rule is violated, redo the selections and note the correction.  
+- Explicitly mark any assumption and its reason.  
+- Include sources directly in the text of sections 2–7 (minimum 2 independent sources for key claims).  
+- Questions are sent only once, grouped together.
+
+## 10. Uncertainty Policies
+- Do not assume when uncertainty affects the conclusion; ask.  
+- If uncertainty is minor, proceed and note the assumption.  
+- If there are major discrepancies between reputable sources, present both versions and indicate which is more likely and why.
+
+## Change Log
+- [Current Date]: what has changed compared to any previous analysis and the impact on the conclusions.
+
+---
+This analysis was performed using the Pareto³ method. License: CC BY 4.0 – “Pareto Square™ & Pareto Cube™ – Adrian (Adi) STAN”.

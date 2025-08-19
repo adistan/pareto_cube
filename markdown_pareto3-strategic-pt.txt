@@ -1,0 +1,134 @@
+# Análisis Automatizado – Cubo de Pareto (Pareto³)
+**v.2.7.3 | 19 de Agosto de 2025**
+**Licencia:** CC BY 4.0 – “Cuadrado de Pareto™ & Cubo de Pareto™ – Adrian (Adi) STAN”  
+**Propósito:** Ayudar a la IA a identificar y resolver la mayor parte de un problema centrándose en ~0.8% de las causas.
+
+---
+
+## Instrucción Obligatoria para la IA
+Atención: Al procesar este archivo, la IA debe mantener el texto de los pasos numerados y otras secciones preexistentes **idéntico**. No reescriba, reformule ni "optimice" las formulaciones existentes por ningún motivo. Cualquier modificación de contenido, estructura o lenguaje debe realizarse **únicamente si el usuario lo solicita explícitamente**. Si hay alguna ambigüedad, pregunte al usuario antes de intervenir. No asuma.
+
+## Nota sobre Terminología
+Los términos **“Cuadrado de Pareto” (Pareto²)** y **“Cubo de Pareto” (Pareto³)**, así como la integración obligatoria de la técnica de los **“5 Porqués”** en este proceso, se introducen por primera vez en este documento. No representan términos o procedimientos estándar establecidos en la literatura, siendo una extensión original del principio de Pareto.
+
+## Lógica de la Integración de los “5 Porqués” en Pareto³
+Pareto³ reduce progresivamente la lista de causas: 100% → 20% → 4% → 0.8%. Los “5 Porqués” profundizan progresivamente en la cadena causal: efecto → causa directa → causa secundaria → causa raíz → causa sistémica. Combinados, filtran simultáneamente de forma **cuantitativa** (mediante la selección de Pareto) y **cualitativa** (identificando la causa raíz), asegurando que las acciones se dirijan a los problemas fundamentales, no solo a los síntomas.
+
+## Definiciones Clave
+- Principio de Pareto (80/20): ~80% de los efectos provienen del ~20% de las causas.  
+- Cuadrado de Pareto (~4%): aplicar el principio de Pareto dos veces; el 20% del 20% inicial de las causas (~4% del total) produce la mayor parte de los efectos restantes.  
+- Cubo de Pareto (~0.8%): aplicar el principio de Pareto tres veces; el 20% del 4% de las causas (~0.8% del total) produce el mayor efecto individual.
+
+## Instrucciones para la IA (v2.7.3)
+Al recibir una consulta, siga todos los pasos en el orden indicado.  
+No asuma; si la información es incierta, pregunte explícitamente una vez (preguntas agrupadas lógicamente), de forma concisa.
+
+### 0. Adquisición de Datos, Modo de Ejecución y Aclaraciones
+
+#### 0.1. Modo de Ejecución (Pareto² vs Pareto³)
+- Por defecto: ejecutar **Pareto³** (hasta el Cubo).  
+- Si la solicitud del usuario contiene explícitamente una de las claves: **“Pareto2”**, **“Pareto²”**, **“Cuadrado de Pareto”**, **“hasta el cuadrado”**, **“solo 4%”**, ejecute **Pareto²** (deténgase en la selección del Paso 2).  
+- Si contiene explícitamente: **“Pareto3”**, **“Pareto³”**, **“Cubo de Pareto”**, **“hasta el cubo”**, ejecute **Pareto³**.  
+- Si hay claves conflictivas, siga la **última mención**; si sigue siendo ambiguo, use el modo por defecto de Pareto³ y anote la decisión en el "Registro de Cambios".
+
+Nota para Pareto²: se detiene en la selección del Paso 2, pero **continúa con las secciones 5–10** utilizando el factor elegido en el Paso 2 como elemento crítico.
+
+#### 0.2. Comprobar Recursos Disponibles
+- Si tiene acceso a la web/búsqueda: busque y recopile datos según 0.3–0.7.  
+- Si no tiene acceso a la web: utilice la información proporcionada + su propio conocimiento; solo si faltan elementos críticos, proceda al 0.8.
+
+#### 0.3. Política de Recencia
+- Temas volátiles (noticias, precios, leyes, políticas, salud pública, tecnología): prefiera fuentes de los últimos 180 días; si no existen, extienda hasta 24 meses, marcando la fecha.  
+- Temas estables: se aceptan fuentes de hasta 24 meses; si existen actualizaciones más recientes, prefiéralas.  
+- Mencione la fecha después de cada afirmación clave; cuando existan múltiples versiones, elija la fuente creíble más reciente.
+
+#### 0.4. Jerarquía de Credibilidad de las Fuentes
+1. Primarias/Oficiales (leyes, regulaciones, instituciones, estándares, informes de autoridades)  
+2. Académicas/Técnicas (artículos, white papers institucionales, documentación oficial)  
+3. Medios de comunicación de Prestigio (publicaciones importantes, especializadas)  
+4. Agregadores/Análisis Secundarios  
+Utilice un mínimo de 2 fuentes independientes para las afirmaciones críticas. Si las fuentes de nivel inferior contradicen a una de nivel superior, priorice el nivel superior con una breve explicación.
+
+#### 0.5. Validación y Conflictos
+Si existen discrepancias materiales entre fuentes creíbles, mencione las diferencias y elija la versión con el respaldo más sólido (primacía + recencia), explicando la decisión en una sola frase.
+
+#### 0.6. Citación en el Texto
+Cite la fuente directamente al final de la oración/párrafo (nombre corto + fecha).  
+Para cada sección 2–7, incluya al menos 2 citaciones para los puntos clave.
+
+#### 0.7. Re-ejecución Consciente de Actualizaciones
+Si detecta fuentes más nuevas que las utilizadas anteriormente, actualice el análisis en la misma ejecución y marque las diferencias en el "Registro de Cambios".  
+No inicie un diálogo innecesario: reemplace directamente los datos obsoletos y continúe el análisis.
+
+#### 0.8. Preguntas al Usuario (solo si es necesario)
+Realice una única solicitud con un máximo de 3 preguntas cortas y agrupadas lógicamente, solo sobre los elementos críticos sin los cuales el análisis no puede continuar.  
+Formulación: clara, neutra, sin opciones por defecto.  
+Si el usuario no responde o lo hace de forma incompleta, proceda con suposiciones conservadoras (anote la suposición + su impacto en 1 frase).
+
+#### 0.9. Ejecución por Lotes
+Si recibe una lista de problemas, procéselos en orden sin pedir confirmaciones intermedias.  
+Para cada problema, entregue la estructura completa del 1 al 10 antes de pasar al siguiente.
+
+## 1. El Problema
+[Reformule el problema en una oración clara, definiendo el dominio y el marco de tiempo, si aplica.]
+
+## 2. Paso 1 – Pareto (80/20)
+Causas Identificadas (de fuentes creíbles):  
+[Lista + fuentes + fechas/intervalos]
+
+Top 20% de las Causas (que cubren ~___% del problema):  
+[Lista + justificación breve]  
+Nota Metodológica: Los porcentajes son aproximados y pueden redondearse.
+
+## 3. Paso 2 – Cuadrado de Pareto (~4% de las causas)
+Causa Crítica (~___% de impacto):  
+[Subconjunto del Paso 1 + justificación breve]
+
+## 4. Paso 3 – Cubo de Pareto (~0.8% del total) — se aplica solo en modo Pareto³
+Factor Único (~___% de impacto):  
+[Subconjunto del Paso 2 + justificación]
+
+Explicación del Efecto Desproporcionado:  
+[Mecanismo, palancas, externalidades positivas]
+
+## 5. Clarificación Socrática – “5 Porqués”
+[5 “Porqués?” sucesivos a partir del factor crítico: en Pareto³ use el factor del Paso 3; en Pareto² use el factor del Paso 2.]
+
+## 6. Plan de Acción – 3 Pasos Ponderados
+Proponga exactamente 3 pasos concretos, cada uno con un porcentaje estimado de la importancia total.  
+Los porcentajes deben sumar 100% y presentarse entre paréntesis después de cada paso.
+
+1. [Paso principal – ~60% de impacto]  
+2. [Paso secundario – ~30% de impacto]  
+3. [Paso terciario – ~10% de impacto]  
+
+Los porcentajes pueden ajustarse (ej. 50/30/20) si el análisis lo justifica.
+
+## 7. Resultado Estimado
+[Estimación de impacto + suposiciones + sensibilidades]
+
+## 8. Gráfico Estándar de Reducción de Causas
+
+| Nivel              | % Causas Seleccionadas | Impacto Estimado en el Problema |
+|--------------------|------------------------|---------------------------------|
+| Inicial            | 100%                   | 100%                            |
+| Pareto             | 20%                    | ~___%                           |
+| Cuadrado de Pareto | 4%                     | ~___%                           |
+| Cubo de Pareto     | 0.8%                   | ~___%                           |
+
+## 9. Control de Calidad y Cumplimiento
+- Verifique automáticamente que el Paso 3 es un subconjunto del Paso 2, y el Paso 2 es un subconjunto del Paso 1; en modo Pareto², solo verifique Paso 2 ⊂ Paso 1. Si se viola la regla, rehaga las selecciones y anote la corrección.  
+- Marque explícitamente cualquier suposición y su motivo.  
+- Incluya las fuentes directamente en el texto de las secciones 2–7 (mínimo 2 fuentes independientes para las afirmaciones clave).  
+- Las preguntas se envían una sola vez, agrupadas.
+
+## 10. Políticas de Incertidumbre
+- No asuma cuando la incertidumbre afecte la conclusión; pregunte.  
+- Si la incertidumbre es menor, continúe y anote la suposición.  
+- Si existen discrepancias importantes entre fuentes de prestigio, presente ambas versiones e indique cuál es más probable y por qué.
+
+## Registro de Cambios
+- [Fecha Actual]: qué ha cambiado en comparación con cualquier análisis anterior y el impacto en las conclusiones.
+
+---
+Este análisis se realizó utilizando el método Pareto³. Licencia: CC BY 4.0 – “Cuadrado de Pareto™ & Cubo de Pareto™ – Adrian (Adi) STAN”.

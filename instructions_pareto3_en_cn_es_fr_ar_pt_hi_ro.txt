@@ -1,0 +1,179 @@
+*Instructions in 8 languages. Please scroll to find yours.*
+*(EN | CN | ES | FR | AR | PT | HI | RO)*
+
+-------
+
+### **Quick Guide to Using Pareto³ Automated Analysis with an AI (English)**
+**Purpose:** This guide explains how to use the provided Markdown (`.txt`) files to run a Pareto³ analysis with any advanced conversational AI.
+
+**Steps to Follow:**
+1.  **Choose the Analysis Mode:**
+    *   For a quick analysis to identify the main root cause of a problem, use the file: `markdown_pareto3-strategic-en.txt`.
+    *   *(Note: The Systemic Mode, for in-depth analysis of complex systems, is under development/translation.)*
+2.  **Upload the File:** Start a new conversation with your chosen AI and upload the corresponding `.md` file.
+3.  **Formulate the Problem:** After uploading the file, write in clear, natural language the problem you want to analyze. Add any relevant context or information you have.
+
+> **Prompt Example:**
+>
+> >*(Here you upload the `markdown_pareto3-strategic-en.txt` file)*
+> >
+> >I want you to analyze the following problem: "Our company's quarterly sales have decreased by 15%."
+
+**Interpreting the Result:**
+The AI will follow the instructions in the file and provide you with a structured analysis, which will identify the main root cause and a 3-step action plan.
+***Recommendation:*** *For the best results, use an AI with internet access to allow it to gather relevant and up-to-date data.*
+
+-------
+
+### **使用AI进行Pareto³自动分析的快速指南 (简体中文)**
+**目的：** 本指南说明如何使用提供的Markdown (.txt) 文件，通过任何高级对话式AI运行Pareto³分析。
+
+**操作步骤：**
+
+1.  **选择分析模式：**
+    *   若要快速分析以确定问题的主要根本原因，请使用文件：`markdown_pareto3-strategic-cn.txt`。
+    *   *（注意：用于复杂系统深度分析的系统模式正在开发/翻译中。）*
+2.  **上传文件：** 与您选择的AI开始新的对话，并上传相应的 `.md` 文件。
+3.  **阐述问题：** 上传文件后，用清晰自然的语言写下您想分析的问题。添加您拥有的任何相关背景或信息。
+
+> **提示示例：**
+>
+> >*(此处上传 `markdown_pareto3-strategic-cn.txt` 文件)*
+> >
+> >我希望你分析以下问题：“我们公司季度销售额下降了15%。”
+
+**解读结果：**
+AI将遵循文件中的指示，为您提供结构化分析，找出主要根本原因并制定三步行动计划。
+***建议：*** *为获得最佳结果，请使用具有互联网访问权限的AI，以便其收集相关和最新的数据。*
+
+-------
+
+### **Guía Rápida para Usar el Análisis Automatizado Pareto³ con una IA (Español)**
+**Propósito:** Esta guía explica cómo utilizar los archivos Markdown (.txt) proporcionados para ejecutar un análisis Pareto³ con cualquier inteligencia artificial conversacional avanzada.
+
+**Pasos a Seguir:**
+1.  **Elija el Modo de Análisis:**
+    *   Para un análisis rápido que identifique la causa raíz principal de un problema, utilice el archivo: `markdown_pareto3-strategic-es.txt`.
+    *   *(Nota: El Modo Sistémico, para un análisis profundo de sistemas complejos, está en desarrollo/traducción.)*
+2.  **Cargue el Archivo:** Inicie una nueva conversación con la IA de su elección y cargue el archivo `.md` correspondiente.
+3.  **Formule el Problema:** Después de cargar el archivo, escriba en un lenguaje claro y natural el problema que desea analizar. Añada cualquier contexto o información relevante que posea.
+
+> **Ejemplo de Prompt:**
+>
+> >*(Aquí se carga el archivo `markdown_pareto3-strategic-es.txt`)*
+> >
+> >Quiero que analices el siguiente problema: "Las ventas trimestrales de nuestra empresa han disminuido un 15%."
+
+**Interpretar el Resultado:**
+La IA seguirá las instrucciones del archivo y le proporcionará un análisis estructurado, que identificará la causa raíz principal y un plan de acción de 3 pasos.
+***Recomendación:*** *Para obtener los mejores resultados, utilice una IA con acceso a internet para permitirle recopilar datos relevantes y actualizados.*
+
+-------
+
+### **Guide Rapide pour l'Utilisation de l'Analyse Automatisée Pareto³ avec une IA (Français)**
+**Objectif :** Ce guide explique comment utiliser les fichiers Markdown (.txt) fournis pour effectuer une analyse Pareto³ avec n'importe quelle intelligence artificielle conversationnelle avancée.
+
+**Étapes à suivre :**
+1.  **Choisissez le Mode d'Analyse :**
+    *   Pour une analyse rapide identifiant la cause racine principale d'un problème, utilisez le fichier : `markdown_pareto3-strategic-fr.txt`.
+    *   *(Note : Le Mode Systémique, pour une analyse approfondie des systèmes complexes, est en cours de développement/traduction.)*
+2.  **Téléchargez le Fichier :** Démarrez une nouvelle conversation avec l'IA de votre choix et téléchargez le fichier `.md` correspondant.
+3.  **Formulez le Problème :** Après avoir téléchargé le fichier, décrivez dans un langage clair et naturel le problème que vous souhaitez analyser. Ajoutez tout contexte ou information pertinente que vous possédez.
+
+> **Exemple de Prompt :**
+>
+> >*(Ici, vous téléchargez le fichier `markdown_pareto3-strategic-fr.txt`)*
+> >
+> >Je veux que vous analysiez le problème suivant : "Les ventes trimestrielles de notre entreprise ont baissé de 15%."
+
+**Interprétation du Résultat :**
+L'IA suivra les instructions du fichier et vous fournira une analyse structurée, qui identifiera la cause racine principale et un plan d'action en 3 étapes.
+***Recommandation :*** *Pour de meilleurs résultats, utilisez une IA avec accès à Internet pour lui permettre de collecter des données pertinentes et à jour.*
+
+-------
+
+### **دليل سريع لاستخدام تحليل باريتو³ الآلي مع الذكاء الاصطناعي (العربية)**
+**الغرض:** يشرح هذا الدليل كيفية استخدام ملفات الماركداون (.txt) المقدمة لتشغيل تحليل باريتو³ مع أي ذكاء اصطناعي تحادثي متقدم.
+
+**الخطوات الواجب اتباعها:**
+1.  **اختر وضع التحليل:**
+    *   لإجراء تحليل سريع يحدد السبب الجذري الرئيسي للمشكلة، استخدم الملف: `markdown_pareto3-strategic-ar.txt`.
+    *   *(ملاحظة: الوضع النظامي، لتحليل متعمق للأنظمة المعقدة، قيد التطوير/الترجمة.)*
+2.  **حمّل الملف:** ابدأ محادثة جديدة مع الذكاء الاصطناعي الذي اخترته وقم بتحميل ملف `.md` المقابل.
+3.  **صياغة المشكلة:** بعد تحميل الملف، اكتب بلغة واضحة وطبيعية المشكلة التي ترغب في تحليلها. أضف أي سياق أو معلومات ذات صلة لديك.
+
+> **مثال على الطلب:**
+>
+> >*(هنا تقوم بتحميل ملف `markdown_pareto3-strategic-ar.txt`)*
+> >
+> >أريدك أن تحلل المشكلة التالية: "انخفضت مبيعات شركتنا الربع سنوية بنسبة 15%."
+
+**تفسير النتيجة:**
+سيتبع الذكاء الاصطناعي التعليمات الموجودة في الملف ويزودك بتحليل منظم يحدد السبب الجذري الرئيسي وخطة عمل من 3 خطوات.
+***توصية:*** *للحصول على أفضل النتائج، استخدم ذكاءً اصطناعيًا متصلاً بالإنترنت لتمكينه من جمع البيانات ذات الصلة والمحدثة.*
+
+-------
+
+### **Guia Rápido para Usar a Análise Automatizada Pareto³ com uma IA (Português)**
+**Objetivo:** Este guia explica como usar os arquivos Markdown (.txt) fornecidos para executar uma análise Pareto³ com qualquer inteligência artificial conversacional avançada.
+
+**Passos a Seguir:**
+1.  **Escolha o Modo de Análise:**
+    *   Para uma análise rápida que identifica a causa raiz principal de um problema, use o arquivo: `markdown_pareto3-strategic-pt.txt`.
+    *   *(Nota: O Modo Sistêmico, para uma análise aprofundada de sistemas complexos, está em desenvolvimento/tradução.)*
+2.  **Carregue o Arquivo:** Inicie uma nova conversa com a IA de sua escolha e carregue o arquivo `.md` correspondente.
+3.  **Formule o Problema:** Após carregar o arquivo, escreva em linguagem clara e natural o problema que deseja analisar. Adicione qualquer contexto ou informação relevante que você tenha.
+
+> **Exemplo de Prompt:**
+>
+> >*(Aqui você carrega o arquivo `markdown_pareto3-strategic-pt.txt`)*
+> >
+> >Eu quero que você analise o seguinte problema: "As vendas trimestrais da nossa empresa diminuíram 15%."
+
+**Interpretando o Resultado:**
+A IA seguirá as instruções no arquivo e fornecerá uma análise estruturada, que identificará a causa raiz principal e um plano de ação de 3 passos.
+***Recomendação:*** *Para os melhores resultados, use uma IA com acesso à internet para permitir a coleta de dados relevantes e atualizados.*
+
+-------
+
+### **एआई के साथ परेतो³ स्वचालित विश्लेषण का उपयोग करने के लिए त्वरित गाइड (हिन्दी)**
+**उद्देश्य:** यह गाइड बताता है कि किसी भी उन्नत संवादी एआई के साथ परेतो³ विश्लेषण चलाने के लिए प्रदान की गई मार्कडाउन (.txt) फ़ाइलों का उपयोग कैसे करें।
+
+**अनुसरण करने के लिए कदम:**
+1.  **विश्लेषण मोड चुनें:**
+    *   किसी समस्या के मुख्य मूल कारण की पहचान करने वाले त्वरित विश्लेषण के लिए, फ़ाइल का उपयोग करें: `markdown_pareto3-strategic-hi.txt`।
+    *   *(ध्यान दें: जटिल प्रणालियों के गहन विश्लेषण के लिए सिस्टमिक मोड, विकास/अनुवाद के अधीन है।)*
+2.  **फ़ाइल अपलोड करें:** अपनी चुनी हुई एआई के साथ एक नई बातचीत शुरू करें और संबंधित `.md` फ़ाइल अपलोड करें।
+3.  **समस्या तैयार करें:** फ़ाइल अपलोड करने के बाद, स्पष्ट, प्राकृतिक भाषा में उस समस्या को लिखें जिसका आप विश्लेषण करना चाहते हैं। आपके पास कोई भी प्रासंगिक संदर्भ या जानकारी जोड़ें।
+
+> **प्रॉम्प्ट का उदाहरण:**
+>
+> >*(यहां आप `markdown_pareto3-strategic-hi.txt` फ़ाइल अपलोड करते हैं)*
+> >
+> >मैं चाहता हूं कि आप निम्नलिखित समस्या का विश्लेषण करें: "हमारी कंपनी की तिमाही बिक्री में 15% की कमी आई है।"
+
+**परिणाम की व्याख्या:**
+एआई फ़ाइल में दिए गए निर्देशों का पालन करेगा और आपको एक संरचित विश्लेषण प्रदान करेगा, जो मुख्य मूल कारण और 3-चरणीय कार्य योजना की पहचान करेगा।
+***सिफारिश:*** *सर्वोत्तम परिणामों के लिए, इंटरनेट एक्सेस वाले एआई का उपयोग करें ताकि वह प्रासंगिक और अद्यतित डेटा एकत्र कर सके।*
+
+-------
+
+### **Ghid Rapid de Utilizare a Analizei Automate Pareto³ cu un AI (Română)**
+**Scop:** Acest ghid explică cum să utilizați fișierele Markdown (`.txt`) furnizate pentru a rula o analiză Pareto³ cu orice inteligență artificială conversațională avansată.
+
+**Pași de Urmat:**
+1.  **Alegeți Modul de Analiză:**
+    *   Pentru o analiză rapidă, care identifică principala cauză a unei probleme, folosiți fișierul: `markdown_pareto3-strategic-ro.txt`.
+    *   *(Notă: Modul Sistemic, pentru o analiză de profunzime a sistemelor complexe, este în lucru/traducere.)*
+2.  **Încărcați Fișierul:** Începeți o nouă conversație cu AI-ul ales de dumneavoastră și încărcați fișierul `.md` corespunzător.
+3.  **Formulați Problema:** După încărcarea fișierului, scrieți într-un limbaj clar și natural problema pe care doriți să o analizați. Adăugați orice context sau informație relevantă pe care o dețineți.
+
+> **Exemplu de Prompt:**
+>
+> >*(Aici se încarcă fișierul `markdown_pareto3-strategic-ro.txt`)*
+> >
+> >Vreau să analizezi următoarea problemă: "Scăderea vânzărilor trimestriale ale companiei noastre cu 15%."
+
+**Interpretați Rezultatul:**
+AI-ul va urma instrucțiunile din fișier și vă va oferi o analiză structurată, care va identifica principala cauză-rădăcină și un plan de acțiune în 3 pași.
+***Recomandare:*** *Pentru cele mai bune rezultate, folosiți un AI cu acces la internet pentru a putea colecta date relevante și actuale.*

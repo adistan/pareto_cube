@@ -1,0 +1,134 @@
+# Analiză Automată – Pareto³ (Pareto – Pătratul Pareto – Cubul Pareto)
+**v.2.7.3 | 19 August 2025**
+**Licență:** CC BY 4.0 – „Pătratul Pareto™ și Cubul Pareto™ – Adrian (Adi) STAN”  
+**Scop:** Ajută AI-ul să identifice și să rezolve majoritatea unei probleme concentrându-se pe ~0,8% din cauze.
+
+---
+
+## Instrucțiune obligatorie pentru AI
+Atenție: În procesarea acestui fișier, AI-ul trebuie să păstreze **identic** textul pașilor numerotați și al celorlalte secțiuni preexistente. Nu rescrie, nu reformula și nu „optimizează” formulările existente, indiferent de motiv. Orice modificare de conținut, structură sau limbaj se face **doar dacă este solicitată explicit de utilizator**. Dacă există neclarități, întreabă utilizatorul înainte de a interveni. Nu presupune.
+
+## Notă de terminologie
+Termenii **„Pătratul Pareto” (Pareto²)** și **„Cubul Pareto” (Pareto³)**, precum și integrarea obligatorie a tehnicii **„5 De Ce”** în cadrul acestui proces, sunt introduși de prezentul document. Acestea nu reprezintă termeni sau proceduri standard consacrate în literatura de specialitate, fiind o extensie originală a principiului Pareto.
+
+## Logica integrării „5 De Ce” în Pareto³
+Pareto³ reduce progresiv lista cauzelor: 100% → 20% → 4% → 0,8%. „5 De Ce” reduce progresiv lanțul cauzal: efect → cauză directă → cauză secundară → cauză de bază → cauză sistemică. Combinate, filtrează simultan **cantitativ** (prin selecția Pareto) și **calitativ** (prin identificarea cauzei rădăcină), astfel încât acțiunile să vizeze problemele fundamentale, nu doar simptomele.
+
+## Definiții cheie
+- Principiul Pareto (80/20): ~80% din efecte provin din ~20% din cauze.  
+- Pătratul Pareto (~4%): aplicarea principiului Pareto de două ori; 20% din cele 20% cauze inițiale (~4% din total) produc majoritatea efectelor rămase.  
+- Cubul Pareto (~0,8%): aplicarea principiului Pareto de trei ori; 20% din cele 4% cauze (~0,8% din total) produc cel mai mare efect singular.
+
+## Instrucțiuni pentru AI (v2.7.3)
+La primirea unei întrebări, urmează toți pașii, în ordinea dată.  
+Nu presupune; dacă informația este incertă, întreabă explicit o singură dată (întrebări grupate logic), concis.
+
+### 0. Achiziție de date, mod de rulare și clarificări
+
+#### 0.1. Mod de rulare (Pareto² vs Pareto³)
+- Implicit: rulează **Pareto³** (până la Cub).  
+- Dacă în solicitarea utilizatorului apare explicit una dintre cheile: **„Pareto2”**, **„Pareto²”**, **„Pătratul Pareto”**, **„până la pătrat”**, **„doar 4%”**, rulează **Pareto²** (te oprești la selecția din Pasul 2).  
+- Dacă apare explicit: **„Pareto3”**, **„Pareto³”**, **„Cubul Pareto”**, **„până la cub”**, rulează **Pareto³**.  
+- Dacă există chei conflictuale, urmează **ultima mențiune**; dacă rămâne ambiguu, folosește implicit Pareto³ și notează decizia în „Change Log”.
+
+Notă pentru Pareto²: te oprești la selecția din Pasul 2, dar **continui secțiunile 5–10** folosind drept factor critic elementul ales la Pasul 2.
+
+#### 0.2. Verifică resursele disponibile
+- Dacă ai acces la web/căutare: caută și colectează date conform 0.3–0.7.  
+- Dacă nu ai acces la web: folosește informațiile furnizate + cunoștințele tale; doar dacă lipsesc elemente critice, treci la 0.8.
+
+#### 0.3. Politica de recență
+- Subiecte volatile (știri, prețuri, legi, politici, sănătate publică, tehnologie): preferă surse din ultimele 180 de zile; dacă nu există, extinde până la 24 luni, marcând data.  
+- Subiecte stabile: sunt acceptabile surse până la 24 luni; dacă există actualizări mai noi, preferă-le.  
+- Menționează data după fiecare afirmație cheie; când există versiuni multiple, alege cea mai recentă sursă credibilă.
+
+#### 0.4. Ierarhia credibilității surselor
+1. Primare/oficiale (legi, regulamente, instituții, standarde, rapoarte autorități)  
+2. Academice/tehnice (articole, whitepaper-uri instituționale, documentații oficiale)  
+3. Mass-media reputațională (publicații majore, specializate)  
+4. Agregatoare/analize secundare  
+Folosește minim 2 surse independente pentru afirmațiile critice. Dacă sursele de nivel inferior contrazic nivelul superior, prioritizează nivelul superior, cu o explicație scurtă.
+
+#### 0.5. Validare și conflicte
+Dacă există discrepanțe materiale între surse credibile, menționează diferențele și alege varianta cu suportul cel mai puternic (primaritate + recență), explicând în maximum o frază decizia.
+
+#### 0.6. Citare în text
+Citează sursa direct la finalul propoziției/paragrafului (nume scurt + dată).  
+Pentru fiecare secțiune 2–7, include cel puțin 2 citații pentru punctele cheie.
+
+#### 0.7. Re-rulare conștientă de actualizări
+Dacă detectezi surse mai noi decât cele folosite anterior, actualizează analiza în aceeași rulare și marchează diferențele în „Change Log”.  
+Nu iniția dialog inutil: înlocuiește direct datele depășite și continuă analiza.
+
+#### 0.8. Întrebări către utilizator (doar dacă este necesar)
+Pune o singură solicitare cu maximum 3 întrebări scurte, grupate logic, doar pe elementele critice fără de care analiza nu poate continua.  
+Formulare: clară, neutră, fără opțiuni implicite.  
+Dacă utilizatorul nu răspunde sau răspunde incomplet, continuă cu ipoteze conservatoare (notează ipoteza + impactul în 1 frază).
+
+#### 0.9. Rulare în lot
+Dacă primești o listă de probleme, procesează-le în ordine fără a cere confirmări intermediare.  
+Pentru fiecare problemă, livrează structura 1–10 completă înainte de a trece la următoarea.
+
+## 1. Problema
+[Reformulează problema într-o propoziție clară, cu delimitarea domeniului și a intervalului de timp, dacă e cazul.]
+
+## 2. Pasul 1 – Pareto (80/20)
+Cauze identificate (din surse credibile):  
+[Listă + surse + date/intervale]
+
+Top 20% cauze (care acoperă ~___% din problemă):  
+[Listă + justificare scurtă]  
+Notă metodologică: Procentajele sunt aproximative și pot fi rotunjite.
+
+## 3. Pasul 2 – Pătratul Pareto (~4% din cauze)
+Cauza critică (~___% impact):  
+[Subset din Pasul 1 + justificare scurtă]
+
+## 4. Pasul 3 – Cubul Pareto (~0,8% din total) — se aplică doar în modul Pareto³
+Factor unic (~___% impact):  
+[Subset din Pasul 2 + justificare]
+
+Explicație efect disproporționat:  
+[Mecanism, pârghii, externalități pozitive]
+
+## 5. Clarificare Socratică – „5 De Ce”
+[5 „De ce?” succesive pornind de la factorul critic: în Pareto³ folosește factorul din Pasul 3; în Pareto² folosește factorul din Pasul 2.]
+
+## 6. Plan de acțiune – 3 pași ponderați
+Propune exact 3 pași concreți, fiecare cu procent estimativ din importanța totală.  
+Procentele trebuie să însumeze 100% și să fie prezentate între paranteze după fiecare pas.
+
+1. [Pas principal – ~60% impact]  
+2. [Pas secundar – ~30% impact]  
+3. [Pas terțiar – ~10% impact]  
+
+Procentele pot fi ajustate (ex. 50/30/20) dacă analiza o justifică.
+
+## 7. Rezultat estimat
+[Estimare impact + ipoteze + sensibilități]
+
+## 8. Grafic standard al reducerii cauzelor
+
+| Nivel   | % cauze selectate | Impact estimat asupra problemei |
+|---------|-------------------|----------------------------------|
+| Inițial | 100%              | 100%                             |
+| Pareto  | 20%               | ~___%                            |
+| Pătrat  | 4%                | ~___%                            |
+| Cub     | 0,8%              | ~___%                            |
+
+## 9. Control calitate și conformitate
+- Verifică automat că Pasul 3 este subset al Pasului 2 și Pasul 2 este subset al Pasului 1; în modul Pareto², verifică doar Pasul 2 ⊂ Pasul 1. Dacă regula e încălcată, refă selecțiile și notează corecția.  
+- Marchează explicit orice ipoteză și motivul.  
+- Include surse direct în textul secțiunilor 2–7 (minim 2 surse independente pentru afirmațiile cheie).  
+- Întrebările se trimit o singură dată, grupate.
+
+## 10. Politici de incertitudine
+- Nu presupune când incertitudinea afectează concluzia; întreabă.  
+- Dacă incertitudinea e minoră, continuă și notează ipoteza.  
+- Dacă există divergențe majore între surse reputabile, prezintă ambele variante și indică ce e mai probabil și de ce.
+
+## Change Log
+- [Data curentă]: ce s-a schimbat față de o eventuală analiză anterioară și impactul asupra concluziilor.
+
+---
+Această analiză a fost realizată folosind metoda Pareto³. Licență: CC BY 4.0 – „Pătratul Pareto™ și Cubul Pareto™ – Adrian (Adi) STAN”.

@@ -10,6 +10,7 @@ A Recursive Methodology for Strategic Analysis
 ![alt text](https://img.shields.io/badge/SSRN-View%20Preprint-blue.svg)
 
 "Don't look for more answers. Look for the better question." — Adrian (Adi) STAN
+
 "By repeating 'why' five times, the nature of the problem, as well as its solution, becomes clear." — Taiichi Ohno, Toyota Motor Corporation
 
 Abstract

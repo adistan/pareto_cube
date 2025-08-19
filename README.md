@@ -26,14 +26,14 @@ Pareto³ (The Cube): Applying the principle one last time reveals the core. ~0.8
 
 
 Mermaid:
+<code>
 graph TD
     A[Complete Problem<br/>100% of Causes] -->|Pareto¹| B(Vital Few<br/>20% of Causes);
     B -->|Pareto²| C(Strategic Levers<br/>4% of Causes);
     C -->|Pareto³| D(Actionable Core<br/>~0.8% of Causes);
-
     style A fill:#f9f9f9,stroke:#333,stroke-width:2px
     style D fill:#c9ffc9,stroke:#2a7e2a,stroke-width:4px
-
+</code>
 
 Operating Modes
 The methodology can be used in two distinct ways:

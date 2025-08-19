@@ -67,6 +67,7 @@ If you use this methodology in your research, please cite it as follows:
 STAN, Adrian (Adi). (2025). Pareto Cube (Pareto³): A Recursive Methodology for Strategic Analysis (Version 1.1). Zenodo. https://doi.org/10.5281/zenodo.16899115
 
 BibTeX:
+<code>
 @software{stan_2025_16899115,
   author       = {STAN, Adrian (Adi)},
   title        = {{Pareto Cube (Pareto³): A Recursive Methodology for Strategic Analysis}},
@@ -77,6 +78,7 @@ BibTeX:
   doi          = {10.5281/zenodo.16899115},
   url          = {https://doi.org/10.5281/zenodo.16899115}
 }
+</code>
 
 License
 This work is licensed under a Creative Commons Attribution 4.0 International License.

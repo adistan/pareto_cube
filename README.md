@@ -9,10 +9,8 @@ A Recursive Methodology for Strategic Analysis
 
 ![alt text](https://img.shields.io/badge/SSRN-View%20Preprint-blue.svg)
 
-"Don't look for more answers. Look for the better question."
-— Adrian (Adi) STAN
-"By repeating 'why' five times, the nature of the problem, as well as its solution, becomes clear."
-— Taiichi Ohno, Toyota Motor Corporation
+"Don't look for more answers. Look for the better question." — Adrian (Adi) STAN
+"By repeating 'why' five times, the nature of the problem, as well as its solution, becomes clear." — Taiichi Ohno, Toyota Motor Corporation
 
 Abstract
 This document introduces the Pareto Cube (Pareto³), a "cascade" methodology for solving complex problems, which integrates the Pareto Principle (80/20) with the "5 Whys" root cause analysis technique. The methodology recursively applies the Pareto principle to progressively distill the essential causes: from the Pareto Square (Pareto²), where ~4% of causes generate ~64% of the effects, to the Pareto Cube (Pareto³), where under 1% of causes can explain the majority of the impact (>51%). Two operating modes are presented: Strategic ("Light"), optimized for speed, and Systemic ("Complex"), optimized for deep understanding.

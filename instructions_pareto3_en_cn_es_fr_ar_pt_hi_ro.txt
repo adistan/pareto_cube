@@ -177,3 +177,5 @@ A IA seguirá as instruções no arquivo e fornecerá uma análise estruturada, 
 **Interpretați Rezultatul:**
 AI-ul va urma instrucțiunile din fișier și vă va oferi o analiză structurată, care va identifica principala cauză-rădăcină și un plan de acțiune în 3 pași.
 ***Recomandare:*** *Pentru cele mai bune rezultate, folosiți un AI cu acces la internet pentru a putea colecta date relevante și actuale.*
+
+Notă: AI-urile mai avansate ar putea să nu completeze șablonul în mod literal, ci să folosească metodologia ca bază pentru a genera o analiză strategică mai elaborată, incluzând orizonturi de timp, metrici și riscuri. Acesta este un rezultat de dorit, care demonstrează o înțelegere profundă a principiilor Pareto³.
